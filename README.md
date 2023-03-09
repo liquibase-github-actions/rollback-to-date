@@ -6,7 +6,7 @@ Rollback changes made to the database based on the specific date
 ```yaml
 steps:
 - uses: actions/checkout@v3
-- uses: liquibase-github-actions/rollback-to-date@v4.19.1
+- uses: liquibase-github-actions/rollback-to-date@v4.20.0
   with:
     # File to write changelog to
     # string
@@ -90,7 +90,7 @@ The liquibase rollback to date action accepts all valid liquibase global options
 ```yaml
 steps:
   - uses: actions/checkout@v3
-  - uses: liquibase-github-actions/rollback-to-date@v4.19.1
+  - uses: liquibase-github-actions/rollback-to-date@v4.20.0
     with:
       changelogFile: ""
       date: ""
